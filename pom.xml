@@ -8,6 +8,20 @@
     <artifactId>git-dtag</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
+    <developers>
+        <developer>
+            <id>markas</id>
+            <name>Marta Kasprzyk</name>
+            <email>mk@mail.com</email>
+            <url>http://www.example.com/markas</url>
+            <organization>Organisation</organization>
+            <organizationUrl>http://www.organisation.com</organizationUrl>
+            <roles>
+                <role>automation tester</role>
+            </roles>
+        </developer>
+    </developers>
+
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
