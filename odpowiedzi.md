@@ -71,10 +71,11 @@ Author: Marta Kasprzyk <marta.kasprzyk@capgemini.com>
 Date:   Fri Sep 20 16:49:21 2024 +0200
 
     added developers section to pom file
+```
 
 test reset --hard:
 na potrzeby testu przywróciłam zmiany odwrócone przez git revert
-
+```
 PS C:\Users\markaspr\git_training> git log
 commit 78a9e2b7eec99c0fa8abdc20e7f9d39f0df284bd (HEAD -> test)
 Author: Marta Kasprzyk <marta.kasprzyk@capgemini.com>
