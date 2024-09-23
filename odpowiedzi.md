@@ -30,8 +30,7 @@ Zmiany mogą być następnie zaaplikowane ponownie poprzez `git stash apply`.
 **Opisać jaka jest różnica między git checkout HEAD~3 i git reset --hard HEAD~3.**
 
 `git checkout HEAD~3` - przełączenie się na wersję sprzed 3 commitów, 
-miejsce, na które wskazuje HEAD będzie przesunięte o 3 commity do tyłu  
-i folder roboczy, na którym pracujemy będzie odzwiercidlał stan sprzed 3 commitów
+miejsce, na które wskazuje HEAD będzie przesunięte o 3 commity do tyłu i folder roboczy, na którym pracujemy będzie odzwiercidlał stan sprzed 3 commitów
 
 `git reset --hard HEAD~3` - index oraz folder roboczy, na którym pracujemy zostaną przywrócone do stanu sprzed 3 commitów
 
@@ -44,10 +43,9 @@ natomiast checkout nie ma wpływu na historię i jedynie wyświetli nam stan fol
 natomiast
 `git reset <commit>` - modyfikuje historię zmian i przesuwa HEAD do wybranego commita
 
-`reset --soft` - przesuwa HEAD do wybranego commita, ale nie modyfikuje index i folderu roboczego
-`reset --mixed` - przesuwa HEAD do wybranego commita, modyfikuje (resetuje) index, ale nie folder roboczy
-`reset --hard` - przesuwa HEAD do wybranego commita, modyfikuje (resetuje) index oraz folder roboczy, 
-commity następujące po wybranym punkcie są usuwane
+- `reset --soft` - przesuwa HEAD do wybranego commita, ale nie modyfikuje index i folderu roboczego
+- `reset --mixed` - przesuwa HEAD do wybranego commita, modyfikuje (resetuje) index, ale nie folder roboczy
+- `reset --hard` - przesuwa HEAD do wybranego commita, modyfikuje (resetuje) index oraz folder roboczy, commity następujące po wybranym punkcie są usuwane
 
 test revert:
 ```
@@ -123,8 +121,8 @@ które już nie istnieją w zdalnym repozytorium
 **Jak usunąć nie używanego brancha (lokalnie i zdalnie)?**
 
 lokalnie:
-`git branch -d <branch_name>` - jeśli gałąź została zmergowana
-`git branch -D <branch_name>` - jeśli gałąź nie została zmergowana
+- `git branch -d <branch_name>` - jeśli gałąź została zmergowana
+- `git branch -D <branch_name>` - jeśli gałąź nie została zmergowana
 
 zdalnie:
 `git push origin --d <branch_name>`
