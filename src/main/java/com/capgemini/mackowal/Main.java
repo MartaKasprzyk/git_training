@@ -8,6 +8,5 @@ public class Main {
         app.get("/user2",ctx->ctx.result("Jan Nowak"));
 		app.get("/user3",ctx->ctx.result("Jan Kowalski"));
 		app.get("/user4",ctx->ctx.result("Adam Nowak"));
-        app.get("/testuser1",ctx->ctx.result("Test User"));
     }
 }
